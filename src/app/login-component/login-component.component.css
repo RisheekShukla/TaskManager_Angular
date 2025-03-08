@@ -1,0 +1,29 @@
+.login-form {
+    max-width: 350px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .login-form h2 {
+    margin-bottom: 20px;
+    font-weight: 600;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-control {
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .btn-primary {
+    width: 100%;
+    border-radius: 5px;
+    font-size: 18px;
+  }
+  

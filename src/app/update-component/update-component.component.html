@@ -1,0 +1,38 @@
+<p>update-component works!</p>
+<!-- <p>create-component works!</p> -->
+<form (ngSubmit)="readValue()">
+    <div class="form-group">
+      <label for="id">Id</label>
+      <input type="text" class="form-control"
+        id="id" name="id" placeholder="Enter id "
+      [(ngModel)]="tsk.id" readonly>
+    </div>
+    <div class="form-group">
+      <label for="name">Task Name</label>
+      <input type="text" class="form-control"
+       id="name" name="name" placeholder="Enter name "
+       [(ngModel)]="tsk.name">
+    </div>
+    <div class="form-group">
+        <label for="date">Date</label>
+        <input type="text" class="form-control" id="date" name="date"
+        placeholder="Enter date "
+         [(ngModel)]="tsk.date">
+      </div>
+      
+    <div class="form-group">
+        <label for="descr">Descreption</label>
+        <input type="text" class="form-control" id="descr" name="descr"
+        placeholder="Enter descr "
+         [(ngModel)]="tsk.descr">
+      </div>
+    
+    <div class="form-group">
+        <label for="status">status</label>
+        <input type="text" class="form-control" id="status" name="status"
+        placeholder="Enter status "
+         [(ngModel)]="tsk.status">
+      </div>
+    
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>

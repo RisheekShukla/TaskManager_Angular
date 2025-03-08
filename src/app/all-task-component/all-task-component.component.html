@@ -1,0 +1,15 @@
+<div class="task-container">
+    <div *ngFor="let ts of tsklist">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">{{ts.id}}. {{ ts.name }}</h5> 
+                <h6>Date: {{ ts.date }}</h6>
+                <h6>Status: {{ ts.status }}</h6>
+                <p class="card-text">{{ ts.descr }}</p>
+                <button type="button" class="btn btn-danger"(click)="DeleteDetails(ts.id)">Delete</button>
+                <button type="button" class="btn btn-warning" (click)="updateDetails(ts.id)">Edit</button>
+                <button type="button" class="btn btn-info" (click)="viewDetails(ts.id)">Read</button>
+            </div>
+        </div>
+    </div>
+</div>

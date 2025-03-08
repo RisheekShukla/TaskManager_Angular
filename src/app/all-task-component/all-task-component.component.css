@@ -1,0 +1,49 @@
+/* Container for horizontal alignment */
+.task-container {
+    display: flex;
+    flex-wrap: wrap; /* Wrap to next line if needed */
+    justify-content: center; /* Center align */
+    gap: 15px; /* Space between cards */
+    padding: 20px;
+}
+
+/* Card Styling */
+.card {
+    width: 250px; /* Fixed width */
+    height: 300px; /* Fixed height for uniformity */
+    display: flex;
+    flex-direction: column; /* Stack items */
+    justify-content: space-between; /* Distribute content evenly */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    padding: 15px;
+    text-align: center;
+    overflow: hidden; /* Prevent overflow issues */
+}
+
+/* Ensure text does not cause uneven sizes */
+.card-text {
+    flex-grow: 1; /* Allows text area to fill available space */
+    overflow: hidden; /* Hide overflow text */
+    text-overflow: ellipsis; /* Add ... if text is too long */
+    white-space: nowrap; /* Prevent text from breaking lines */
+}
+
+/* Button Styling */
+.btn-primary {
+    display: block;
+    background-color: #007bff;
+    color: white;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 14px;
+    transition: background 0.3s ease-in-out;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
