@@ -2,6 +2,9 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.6.
 
+![image](https://github.com/user-attachments/assets/e221369b-aee9-477f-9da3-654a5c85d95e)
+
+
 ## BackEnd Repository [Tasker-Backend](https://github.com/RisheekShukla/TaskManager_SpringBoot?tab=readme-ov-file)
 
 ## Development server
